@@ -12,10 +12,9 @@ plugins {
 }
 
 android {
-    compileSdk = 33
+    compileSdk = 34
     buildToolsVersion = "33.0.2"
     ndkVersion = "25.2.9519653"
-    androidResources.generateLocaleConfig = true
 
     splits {
         abi {
@@ -56,9 +55,9 @@ android {
     defaultConfig {
         applicationId = "moe.tarsin.ehviewer"
         minSdk = 28
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 180042
-        versionName = "1.8.8.3"
+        versionName = "1.8.8.3.1"
         resourceConfigurations.addAll(
             listOf(
                 "zh",
